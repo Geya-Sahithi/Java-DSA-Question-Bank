@@ -1,3 +1,4 @@
+//Write a Java program to grade students based on their marks
 import java.util.Scanner;
 
 public class Grades {
