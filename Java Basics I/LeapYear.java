@@ -1,4 +1,4 @@
-//Write a Java Program that takes a year from user and print the greatest number
+//Write a Java Program that takes a year from user and print whether that year is a leap year or not
 import java.util.Scanner;
 
 public class LeapYear {
