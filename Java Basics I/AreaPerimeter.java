@@ -1,3 +1,4 @@
+// Write a Java program that takes two numbers as inputs and display the product of two numbers
 public class AreaPerimeter {
     public static void main(String[] args) {
         int r = 23;
