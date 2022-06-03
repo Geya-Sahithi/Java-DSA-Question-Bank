@@ -1,4 +1,4 @@
-// Write a Java program that takes two numbers as inputs and display the product of two numbers
+// Write a Java program to print the area and perimeter of a circle.
 public class AreaPerimeter {
     public static void main(String[] args) {
         int r = 23;
