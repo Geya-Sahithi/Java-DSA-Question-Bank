@@ -7,6 +7,13 @@ public class GcdOrHcf {
 
     }
     
+    static int gcdEuclidModified(int a,int b) {
+        if(a < b) return gcd(b,a);
+        if(b ==a) return a;
+
+        return gcd(a%b,b);
+    }
+    
 //     static int gcd(int a,int b) {
 //         System.out.println(a + " " + b);
 //         if(a == b) return a;
@@ -16,6 +23,9 @@ public class GcdOrHcf {
     public static void main(String[] args) {
         int a = 60;
         int b = 36;
-        System.out.println(gcd(a, b));
+       // System.out.println(gcd(a, b));
+        
+         System.out.println(gcdEuclidModified(a, b));
+
     }
 }
