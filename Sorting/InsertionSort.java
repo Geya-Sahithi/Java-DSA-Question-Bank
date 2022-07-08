@@ -1,5 +1,3 @@
-import java.net.InetAddress;
-
 public class InsertionSort {
     static void insertionSort(int a[]) {
         for (int i = 0; i < a.length; i++) {
